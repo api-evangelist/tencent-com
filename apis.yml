@@ -1,23 +1,66 @@
 aid: tencent-com
+
 name: Tencent
+
 description: 'Tencent is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
   and added to the network as a stub for full-pipeline profiling.'
+
 url: https://raw.githubusercontent.com/api-evangelist/tencent-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/tencent-com-hosts.yml
+- type: SDKs
+  url: packages/tencent-com-packages.yml
+- type: Packages
+  url: packages/tencent-com-packages.yml
+- type: Documentation
+  url: https://developer.tencent.com/
+- type: GitHubOrganization
+  url: https://github.com/Tencent
+- type: DomainSecurity
+  url: security/tencent-com-domain-security.yml
 - type: Website
   url: https://tencent.com/
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-21'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://tencent.com/
+    status: null
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

@@ -1,0 +1,20 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/tencent-com/integrations
+- https://zapier.com/apps/tencent/integrations
+- https://n8n.io/integrations/tencent-com/
+- https://n8n.io/integrations/tencent/
+- https://composio.dev/toolkits/tencent-com
+- https://monid.ai/tools/tencent-com
+checked:
+- https://composio.dev/toolkits/tencent-com
+- https://monid.ai/tools/tencent-com
+- https://n8n.io/integrations/tencent-com/
+- https://n8n.io/integrations/tencent/
+- https://zapier.com/apps/tencent-com/integrations
+- https://zapier.com/apps/tencent/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
